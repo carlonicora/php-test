@@ -1,0 +1,30 @@
+{
+  "name": "carlonicora/php-test",
+  "description": "Project to see how PHP developers approach new environment",
+  "version": "1.0.0",
+  "homepage": "https://carlonicora.com",
+  "time": "2020-01-20",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Carlo Nicora",
+      "email": "carlo@carlonicora.com",
+      "homepage": "http://carlonicora.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.3",
+    "ext-json": "*",
+    "carlonicora/minimalism": "*"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "carlonicora\\test\\": "src/"
+    }
+  }
+}
